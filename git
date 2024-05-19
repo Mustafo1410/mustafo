@@ -1,0 +1,21 @@
+git branch - buyurgi orqali gitdagi branchlarni korib olishingiz mumkin yani proektingizdagi
+
+git branch new_branch_name - buyrugi orqali yangi branch yaratishingiz mumkin
+
+git status - buyrugi orqali ozgarishlarni korish mumkin
+
+git add . - buyrugi orqali barcha ozgarishlarni gitga qoshishingiz mumkin
+
+git add <file path> - burugi orqali faqat shu faylni gitga qoshishingiz mumkin
+
+git commit -m "your commit name"  - buyrugi orqali ozgarishlarga nom berishingiz mumkin
+
+git push -u origin your_branch_name - buyrugi orqali ozgarishlarni shu branchga qoshishingiz mumkin
+
+git checkout next_branch - buyrugi orqali boshqa branchga otiladi
+
+git pull origin old_branch_name - buyrugi orqali yangi branchga eski branchdagi ozgarishlarni qoshuishingiz mumkin
+
+git merge old_branch_name - buyrugi orqali eski branchdagi ozgarishlarni merge qilishingiz mumkin
+
+git remote -v  - buyrugi orqali proektingizni gitdagi ornini korishingiz mumkin
