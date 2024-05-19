@@ -40,7 +40,7 @@ public class CardController implements Cardservice<Integer, Card> {
     @GetMapping("/getAll")
     @Override
     public List<Card> getAll() {
-        return List.of();
+        return this.cardservicesimple.getAll();
     }
 }
 
